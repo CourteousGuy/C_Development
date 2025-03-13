@@ -1,5 +1,5 @@
 import './heading.css';
-import Button from '../../util/button/button';
+import Button from '../../../util/button';
 
 export default function Heading() {
   return (

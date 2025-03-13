@@ -1,0 +1,13 @@
+{
+    "posts": [
+      { "id": "1", "title": "a title", "views": 100 },
+      { "id": "2", "title": "another title", "views": 200 }
+    ],
+    "comments": [
+      { "id": "1", "text": "a comment about post 1", "postId": "23452345245252323463246" },
+      { "id": "2", "text": "another comment about post 1", "postId": "2464574562463464563462462456856" }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }

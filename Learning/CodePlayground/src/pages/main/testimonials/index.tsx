@@ -1,5 +1,5 @@
 import './testimonials.css';
-import Header from '../../util/header/header';
+import Header from '../../../util/header';
 
 function TestimonialCard({ image, rating, quote, name }: { image: string, rating: number, quote: string, name: string }) {
     let ratingString = '';

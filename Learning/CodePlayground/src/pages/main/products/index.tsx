@@ -1,5 +1,5 @@
-import Header from '../../util/header/header';
-import ProductCard from '../../util/product-card/product-card';
+import Header from '../../../util/header';
+import ProductCard from '../../../util/product-card';
 import './products.css';
 
 export default function Products() {

@@ -1,5 +1,5 @@
 import './benefits.css';
-import Button from '../../util/button/button';
+import Button from '../../../util/button';
 
 const features = [{
     title: "Eco-sustainable:",
