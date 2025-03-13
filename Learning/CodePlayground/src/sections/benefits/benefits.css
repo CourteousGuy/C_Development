@@ -1,0 +1,48 @@
+.benefits {
+    width: 100%;
+    height: 800px;
+    background-color: #f7f8fa;
+}
+
+.benefits__text-left {
+    width: 540px;
+    height: 325px;
+    position: relative;
+    display: inline-block;
+    left: 165px;
+    top: 150px;
+    & h2 {
+        width: 350px;
+        height: 105px;
+        margin: 0 0 -10px;
+        padding: 10px 0 0;
+        font-size: 40px;
+        color: #1D252C;
+    }
+}
+
+.benefits__subtitle {
+    margin: 6px 0 40px;
+    font-size: 18px;
+    color: #56B280;
+}
+
+.feature__item {
+    margin: 18px 0 0;
+    font-size: 18px;
+}
+
+#benefits__button {
+    margin: 70px auto 0 0;
+}
+
+.benefits__image {
+    position: relative;
+    left: 735px;
+    top: -190px;
+    & img {
+        width: 540px;
+        height: 377px;
+        box-shadow: 0 0 24px rgba(123, 123, 123, 0.15);
+    }
+}
