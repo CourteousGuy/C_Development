@@ -1,5 +1,6 @@
 import './benefits.css';
 import Button from '../../../util/button';
+import { PiCheckCircleLight } from "react-icons/pi";
 
 const features = [{
     title: "Eco-sustainable:",
@@ -16,7 +17,7 @@ const features = [{
 }];
 
 const listItems = features.map(feature => 
-    <p className="feature__item">✓ <b>{feature.title}</b> {feature.description}</p>
+    <p className="feature__item"><span><PiCheckCircleLight /> </span><b>{feature.title}</b> {feature.description}</p>
 );
 
 export default function Benefits() {

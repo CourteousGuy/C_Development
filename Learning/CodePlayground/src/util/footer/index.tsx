@@ -35,7 +35,7 @@ export default function Footer() {
             </div>
             <div className="credits">
                 <div><p>©Candleaf All Rights Reserved.</p></div>
-                <div><p>Original design done by <b>uxbly</b></p></div>
+                <div><p>Designed with ❤️ by <b>uxbly</b></p></div>
             </div>
         </>
     );

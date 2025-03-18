@@ -33,6 +33,7 @@
     width: 387px;
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .nav__cta {
@@ -40,5 +41,15 @@
     justify-content: space-between;
     margin-right: 170px;
     width: 80px;
-    font-size: 13px;
+    font-size: 24px;
+    & a {
+        position: relative;
+        top: 5px;
+    }
+}
+
+.nav__icon {
+    position: relative;
+    top: 5px;
+    font-size: 20px;
 }

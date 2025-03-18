@@ -4,7 +4,7 @@ import Products from './products'
 import Benefits from './benefits'
 import Testimonials from './testimonials'
 import Popular from './popular'
-import Footer from './footer'
+import Footer from '../../util/footer'
 
 export default function Main() {
     return (

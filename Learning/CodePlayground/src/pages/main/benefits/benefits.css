@@ -29,6 +29,10 @@
 .feature__item {
     margin: 18px 0 0;
     font-size: 18px;
+    & span {
+        position: relative;
+        top: 2px;
+    }
 }
 
 #benefits__button {
