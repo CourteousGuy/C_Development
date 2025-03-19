@@ -12,9 +12,9 @@ const footerInfo = [{
 }]
 
 const footerTable = footerInfo.map(section => 
-    <div className="footer__column">
+    <div key={footerInfo.indexOf(section)} className="footer__column">
         <p className="footer__column__header">{section.section}</p>
-        {section.links.map(link => <p className="footer__column__item">{link}</p>)}
+        {section.links.map(link => <p key={section.links.indexOf(link)} className="footer__column__item">{link}</p>)}
     </div>
 )
 

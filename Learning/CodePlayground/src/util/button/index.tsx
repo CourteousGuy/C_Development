@@ -7,7 +7,7 @@ interface ButtonProps {
 
 export default function Button({ id, content }: ButtonProps) {
   return (
-    <div className="button__container">
+    <div className={ id + "__button__container"}>
       <button id={id} className="button">{content}</button>
     </div>
   );

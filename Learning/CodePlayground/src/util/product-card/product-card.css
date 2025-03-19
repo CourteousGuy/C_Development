@@ -3,6 +3,7 @@
     height: 230px;
     background-color: white;
     box-shadow: 0 0 24px rgba(123, 123, 123, 0.15);
+    text-decoration: none;
 }
 
 .product:hover {

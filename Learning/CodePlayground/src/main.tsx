@@ -1,10 +1,36 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import Main from './pages/main'
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
+import './index.css';
+import Nav from './nav';
+import Footer from './util/footer';
+import Main from './pages/main';
+import ProductView from './pages/product-view';
+import Cart from './pages/cart';
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <Main />
-  </StrictMode>,
-)
+function Layout() {
+  return (
+    <StrictMode>
+      <Nav />
+      <Outlet />
+      <Footer />
+    </StrictMode>
+  )
+}
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Main />} />
+          <Route path="product" element={<ProductView />} />
+          <Route path="cart" element={<Cart />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  )
+}
+
+const root = createRoot(document.getElementById('root')!);
+root.render(<App />);
