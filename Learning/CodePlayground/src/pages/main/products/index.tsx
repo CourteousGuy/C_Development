@@ -13,21 +13,25 @@ export default function Products() {
                 <div className="products__cardholder">
                     <div className='row'>
                         <ProductCard
+                            id="4464"
                             img="src\assets\images\product-image.jpg"
                             title="Spiced Mint"
                             price="9.99$"
                         />
                         <ProductCard
+                            id="4d6b"
                             img="src\assets\images\product-image.jpg"
                             title="Sweet Strawberry"
                             price="9.99$"
                         />
                         <ProductCard
+                            id="r498"
                             img="src\assets\images\product-image.jpg"
                             title="Cool Blueberries"
                             price="9.99$"
                         />
                         <ProductCard
+                            id="f8mc"
                             img="src\assets\images\product-image.jpg"
                             title="Juicy Lemon"
                             price="9.99$"
@@ -35,21 +39,25 @@ export default function Products() {
                     </div>
                     <div className='row'>
                         <ProductCard
+                            id="50ky"
                             img="src\assets\images\product-image.jpg"
                             title="Product name"
                             price="9.99$"
                         />
                         <ProductCard
+                            id="c0q8"
                             img="src\assets\images\product-image.jpg"
                             title="Fragrant Cinnamon"
                             price="9.99$"
                         />
                         <ProductCard
+                            id="a9kv"
                             img="src\assets\images\product-image.jpg"
                             title="Summer Cherries"
                             price="9.99$"
                         />
                         <ProductCard
+                            id="v459"
                             img="src\assets\images\product-image.jpg"
                             title="Clean Lavender"
                             price="9.99$"

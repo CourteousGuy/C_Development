@@ -16,8 +16,8 @@ const features = [{
     description: "No more waste. Created for last long."
 }];
 
-const listItems = features.map(feature => 
-    <p className="feature__item"><span><PiCheckCircleLight /> </span><b>{feature.title}</b> {feature.description}</p>
+const listItems = features.map((feature, index) => 
+    <p key={index} className="feature__item"><span><PiCheckCircleLight /> </span><b>{feature.title}</b> {feature.description}</p>
 );
 
 export default function Benefits() {

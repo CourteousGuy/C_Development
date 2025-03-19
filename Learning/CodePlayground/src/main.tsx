@@ -24,7 +24,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Main />} />
-          <Route path="product" element={<ProductView />} />
+          <Route path="product/:productId" element={<ProductView />} />
           <Route path="cart" element={<Cart />} />
         </Route>
       </Routes>

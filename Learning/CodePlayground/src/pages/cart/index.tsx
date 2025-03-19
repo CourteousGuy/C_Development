@@ -1,5 +1,5 @@
 import './cart.css';
-import { use, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Product from '../../components/product';
 import Button from '../../util/button';
 import QuantityCounter from '../../components/quantityCounter';
@@ -101,6 +101,7 @@ export default function Cart() {
         reload();
     }
 
+    // NOTE: I feel like there is a better way to do this.
     function reload() {
         setTotal(cart.reduce((acc, product) => acc + product.price * product.quantity, 0));
     }

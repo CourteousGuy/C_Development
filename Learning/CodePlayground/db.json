@@ -1,13 +1,160 @@
 {
-    "posts": [
-      { "id": "1", "title": "a title", "views": 100 },
-      { "id": "2", "title": "another title", "views": 200 }
-    ],
-    "comments": [
-      { "id": "1", "text": "a comment about post 1", "postId": "23452345245252323463246" },
-      { "id": "2", "text": "another comment about post 1", "postId": "2464574562463464563462462456856" }
-    ],
-    "profile": {
-      "name": "typicode"
+  "products": [
+    {
+      "id": "4464",
+      "title": "Spiced Mint",
+      "price": 9.99,
+      "image": "http://localhost:5173/public/product-image-big.png",
+      "description": {
+        "wax": "Top grade Soy wax that delivers a smoke-less, consistent burn",
+        "fragrance": "Premium quality ingredients with natural essential oils",
+        "burnTime": "70-75 hours",
+        "dimensions": "10cm x 5cm",
+        "weight": "400g"
+      }
+    },
+    {
+      "id": "4d6a",
+      "title": "Sweet Strawberry",
+      "price": 9.99,
+      "image": "http://localhost:5173/public/product-image-big.png",
+      "description": {
+        "wax": "Top grade Soy wax that delivers a smoke-less, consistent burn",
+        "fragrance": "Premium quality ingredients with natural essential oils",
+        "burnTime": "70-75 hours",
+        "dimensions": "10cm x 5cm",
+        "weight": "400g"
+      }
+    },
+    {
+      "id": "r498",
+      "title": "Cool Blueberries",
+      "price": 9.99,
+      "image": "http://localhost:5173/public/product-image-big.png",
+      "description": {
+        "wax": "Top grade Soy wax that delivers a smoke-less, consistent burn",
+        "fragrance": "Premium quality ingredients with natural essential oils",
+        "burnTime": "70-75 hours",
+        "dimensions": "10cm x 5cm",
+        "weight": "400g"
+      }
+    },
+    {
+      "id": "f8mc",
+      "title": "Juicy Lemon",
+      "price": 9.99,
+      "image": "http://localhost:5173/public/product-image-big.png",
+      "description": {
+        "wax": "Top grade Soy wax that delivers a smoke-less, consistent burn",
+        "fragrance": "Premium quality ingredients with natural essential oils",
+        "burnTime": "70-75 hours",
+        "dimensions": "10cm x 5cm",
+        "weight": "400g"
+      }
+    },
+    {
+      "id": "50ky",
+      "title": "Product name",
+      "price": 9.99,
+      "image": "http://localhost:5173/public/product-image-big.png",
+      "description": {
+        "wax": "Top grade Soy wax that delivers a smoke-less, consistent burn",
+        "fragrance": "Premium quality ingredients with natural essential oils",
+        "burnTime": "70-75 hours",
+        "dimensions": "10cm x 5cm",
+        "weight": "400g"
+      }
+    },
+    {
+      "id": "c0q8",
+      "title": "Fragrant Cinnamon",
+      "price": 9.99,
+      "image": "http://localhost:5173/public/product-image-big.png",
+      "description": {
+        "wax": "Top grade Soy wax that delivers a smoke-less, consistent burn",
+        "fragrance": "Premium quality ingredients with natural essential oils",
+        "burnTime": "70-75 hours",
+        "dimensions": "10cm x 5cm",
+        "weight": "400g"
+      }
+    },
+    {
+      "id": "a9kv",
+      "title": "Summer Cherries",
+      "price": 9.99,
+      "image": "http://localhost:5173/public/product-image-big.png",
+      "description": {
+        "wax": "Top grade Soy wax that delivers a smoke-less, consistent burn",
+        "fragrance": "Premium quality ingredients with natural essential oils",
+        "burnTime": "70-75 hours",
+        "dimensions": "10cm x 5cm",
+        "weight": "400g"
+      }
+    },
+    {
+      "id": "v459",
+      "title": "Clean Lavender",
+      "price": 9.99,
+      "image": "http://localhost:5173/public/product-image-big.png",
+      "description": {
+        "wax": "Top grade Soy wax that delivers a smoke-less, consistent burn",
+        "fragrance": "Premium quality ingredients with natural essential oils",
+        "burnTime": "70-75 hours",
+        "dimensions": "10cm x 5cm",
+        "weight": "400g"
+      }
     }
-  }
+  ],
+  "inventory": [
+    {
+      "id": "4464",
+      "title": "Spiced Mint",
+      "amount": 1000
+    },
+    {
+      "id": "4d6a",
+      "title": "Sweet Strawberry",
+      "amount": 300
+    },
+    {
+      "id": "r498",
+      "title": "Cool Blueberries",
+      "amount": 30
+    },
+    {
+      "id": "f8mc",
+      "title": "Juicy Lemon",
+      "amount": 30
+    },
+    {
+      "id": "50ky",
+      "title": "Product name",
+      "amount": 0
+    },
+    {
+      "id": "c0q8",
+      "title": "Fragrant Cinnamon",
+      "amount": 30
+    },
+    {
+      "id": "a9kv",
+      "title": "Summer Cherries",
+      "amount": 60
+    },
+    {
+      "id": "v459",
+      "title": "Clean Lavender",
+      "amount": 30
+    }
+  ],
+  "profile": [
+    {
+      "username": "curtdog",
+      "name": "Curtis"
+    },
+    {
+      "username": "icognitoUser",
+      "name": "Bertrand"
+    }
+  ]
+}

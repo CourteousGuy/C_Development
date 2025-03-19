@@ -12,7 +12,7 @@ export default function Nav() {
       <div className="nav__links">
         <a href="#"><b>Discovery</b> <span className="nav__icon"><PiArrowSquareDown /></span></a>
         <Link to="/"><b>About</b></Link>
-        <Link to="/product"><b>Contact us</b></Link>
+        <Link to="/product/4d6a"><b>Contact us</b></Link>
       </div>
       <div className="nav__cta">
         <a href="#"><PiUser /></a>
