@@ -1,0 +1,104 @@
+{
+    "products": [
+      {
+        "id": "4464",
+        "title": "Spiced Mint",
+        "price": 9.99,
+        "image": "http://localhost:5173/public/product-image-big.png"
+      },
+      {
+        "id": "4d6a",
+        "title": "Sweet Strawberry",
+        "price": 9.99,
+        "image": "http://localhost:5173/public/product-image-big.png"
+      },
+      {
+        "id": "r498",
+        "title": "Cool Blueberries",
+        "price": 9.99,
+        "image": "http://localhost:5173/public/product-image-big.png"
+      },
+      {
+        "id": "f8mc",
+        "title": "Juicy Lemon",
+        "price": 9.99,
+        "image": "http://localhost:5173/public/product-image-big.png"
+      },
+      {
+        "id": "50ky",
+        "title": "Product name",
+        "price": 9.99,
+        "image": "http://localhost:5173/public/product-image-big.png"
+      },
+      {
+        "id": "c0q8",
+        "title": "Fragrant Cinnamon",
+        "price": 9.99,
+        "image": "http://localhost:5173/public/product-image-big.png"
+      },
+      {
+        "id": "a9kv",
+        "title": "Summer Cherries",
+        "price": 9.99,
+        "image": "http://localhost:5173/public/product-image-big.png"
+      },
+      {
+        "id": "v459",
+        "title": "Clean Lavender",
+        "price": 9.99,
+        "image": "http://localhost:5173/public/product-image-big.png"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "4464",
+        "title": "Spiced Mint",
+        "amount": 1000
+      },
+      {
+        "id": "4d6a",
+        "title": "Sweet Strawberry",
+        "amount": 300
+      },
+      {
+        "id": "r498",
+        "title": "Cool Blueberries",
+        "amount": 30
+      },
+      {
+        "id": "f8mc",
+        "title": "Juicy Lemon",
+        "amount": 30
+      },
+      {
+        "id": "50ky",
+        "title": "Product name",
+        "amount": 0
+      },
+      {
+        "id": "c0q8",
+        "title": "Fragrant Cinnamon",
+        "amount": 30
+      },
+      {
+        "id": "a9kv",
+        "title": "Summer Cherries",
+        "amount": 60
+      },
+      {
+        "id": "v459",
+        "title": "Clean Lavender",
+        "amount": 30
+      }
+    ],
+    "profile": [
+      {
+        "username": "curtdog",
+        "name": "Curtis"
+      },
+      {
+        "username": "icognitoUser",
+        "name": "Bertrand"
+      }
+    ]
+  }
