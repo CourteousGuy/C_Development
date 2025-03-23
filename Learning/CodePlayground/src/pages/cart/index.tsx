@@ -1,6 +1,5 @@
 import './cart.css';
 import { useEffect, useState } from 'react';
-import { create } from 'zustand';
 import Product from '../../components/product';
 import Button from '../../util/button';
 import QuantityCounter from '../../components/quantityCounter';
