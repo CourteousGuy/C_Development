@@ -15,14 +15,14 @@ export default function Navigation() {
         </div>
         <div className={styles.nav__links}>
             <Link className={poppins_500.className} href="#">
-            Discovery{" "}
-            <PiArrowSquareDown className={styles.nav__icon} />
+                Discovery{" "}
+                <Image src="/ChevronDown.png" alt="chevron-down" width={10} height={10} />
             </Link>
             <Link className={poppins_500.className} href="#">
-            About
+                About
             </Link>
             <Link className={poppins_500.className} href="#">
-            Contact us
+                Contact us
             </Link>
         </div>
         <div className={styles.nav__cta}>

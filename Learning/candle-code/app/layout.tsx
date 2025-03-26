@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import { poppins_300 } from "./fonts";
+import { poppins_400 } from "./fonts";
 import "./globals.css";
 import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
   title: "Mock E-Commerce Site",
@@ -16,10 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={poppins_300.className}
+        className={poppins_400.className}
       >
         <Navigation />
         {children}
+        <Footer />
       </body>
     </html>
   );
