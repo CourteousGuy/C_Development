@@ -1,6 +1,6 @@
 import styles from './modules/Products.module.css'
-import Header from '../../utils/header';
-import ProductCard from '../../utils/product-card';
+import Header from '@/utils/header';
+import ProductCard from '@/utils/product-card';
 
 export default function Products() {
     return (

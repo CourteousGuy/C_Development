@@ -1,6 +1,6 @@
 import styles from './modules/Heading.module.css';
 import { poppins_500, roboto_400 } from '@/app/fonts';
-import Button from '../../utils/button';
+import Button from '@/utils/button';
 
 export default function Heading() {
   return (
