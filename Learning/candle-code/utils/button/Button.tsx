@@ -1,3 +1,4 @@
+'use client';
 import styles from './Button.module.css';
 import { roboto_400 } from '@/app/fonts';
 

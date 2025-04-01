@@ -9,6 +9,7 @@
     justify-content: space-between;
     padding: 20px 165px;
     background-color: white;
+    z-index: 1000;
     & a {
         text-decoration: none;
         color: black;

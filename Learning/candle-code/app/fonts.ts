@@ -35,3 +35,9 @@ export const roboto_400 = Roboto({
     display: 'swap',
     subsets: ['latin'],
 });
+
+export const roboto_500 = Roboto({
+    weight: '500',
+    display: 'swap',
+    subsets: ['latin'],
+});
