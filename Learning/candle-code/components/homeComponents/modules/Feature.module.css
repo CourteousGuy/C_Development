@@ -1,0 +1,15 @@
+.feature {
+    width: 1110px;
+    height: 460px;
+    background-color: white;
+    padding: 90px 165px 0;
+}
+
+.feature__products {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 54px 0 0;
+}
