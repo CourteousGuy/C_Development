@@ -1,0 +1,50 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.counter {
+    display: flex;
+    height: 30px;
+    width: 80px;
+    border: #56B280 1px solid;
+    & button {
+        font-size: 22px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.counter__btn {
+    height: 100%;
+    width: 26px;
+    background-color: white;
+    color: #56B280;
+    border: none;
+    cursor: pointer;    
+}
+.counter__btn:hover:enabled {
+    background-color: #f0f0f0;
+    color: #56B280;
+}
+.counter__btn:active:enabled {
+    background-color: #56B280;
+    color: white;
+}
+.counter__btn:disabled {
+    color: #f0f0f0;
+}
+
+.counter__input {
+    height: 28px;
+    width: 24px;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+}
+.counter__input:focus {
+    outline: none;
+}

@@ -1,6 +1,6 @@
 import { poppins_500, roboto_400 } from '@/app/fonts';
 import styles from './modules/Testimonials.module.css';
-import Header from '@/utils/header';
+import Header from '@/components/header';
 
 function TestimonialCard({ image, rating, quote, name }: { image: string, rating: number, quote: string, name: string }) {
     let ratingString = '';

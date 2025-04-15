@@ -1,6 +1,6 @@
 import { poppins_500, poppins_400 } from '@/app/fonts';
 import styles from './modules/Benefits.module.css';
-import Button from '@/utils/button';
+import Button from '@/components/button';
 import { PiCheckCircleLight } from "react-icons/pi";
 
 const features = [{
@@ -29,10 +29,9 @@ export default function Benefits() {
         <div className={`${styles.benefits__subtitle} ${poppins_400.className}`}>Made for your home and for your wellness</div>
         {listItems}
         <div className={styles.benefits__button}>
-            <Button
-            id="benefits__button"
-            content="Learn more"
-            />
+            <Button id="benefits__button">
+              Learn more
+            </Button>
         </div>
         
       </div>

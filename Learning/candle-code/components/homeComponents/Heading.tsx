@@ -1,6 +1,6 @@
 import styles from './modules/Heading.module.css';
 import { poppins_500, roboto_400 } from '@/app/fonts';
-import Button from '@/utils/button';
+import Button from '@/components/button';
 
 export default function Heading() {
   return (
@@ -9,10 +9,9 @@ export default function Heading() {
         <div className={`${styles.heading__emoji} ${poppins_500.className}`}>🌱</div>
         <div className={`${styles.heading__title} ${poppins_500.className}`}>The nature candle</div>
         <div className={`${styles.heading__content} ${roboto_400.className}`}>All handmade with natural soy wax, Candleaf is a companion for all your pleasure moments.</div>
-        <Button
-          id="heading__button"
-          content="Discover our collection"
-        />
+        <Button id="heading__button">
+          Discover our collection
+        </Button>
       </div>
       <img id="bgn-img" src="bg-image.jpg" alt="background"></img>
     </div>

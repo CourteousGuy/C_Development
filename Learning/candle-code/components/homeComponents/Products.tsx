@@ -1,6 +1,14 @@
 import styles from './modules/Products.module.css'
-import Header from '@/utils/header';
-import ProductCard from '@/utils/product-card';
+import Header from '@/components/header';
+import ProductCard from '@/components/product-card';
+import spicedMintImage from '@/public/candles-coloured/spiced-mint.png';
+import sweetStrawberryImage from '@/public/candles-coloured/sweet-strawberry.png';
+import coolBlueberriesImage from '@/public/candles-coloured/cool-blueberries.png';
+import juicyLemonImage from '@/public/candles-coloured/juicy-lemon.png';
+import freshOrangeImage from '@/public/candles-coloured/fresh-orange.png';
+import fragrantCinnamonImage from '@/public/candles-coloured/fragrant-cinnamon.png';
+import summerCherriesImage from '@/public/candles-coloured/summer-cherries.png';
+import cleanLavenderImage from '@/public/candles-coloured/clean-lavender.png';
 
 export default function Products() {
     return (
@@ -14,25 +22,25 @@ export default function Products() {
                 <div className={styles.products__cardholder__row}>
                     <ProductCard
                         id="4464"
-                        img="candles-coloured/spiced-mint.png"
+                        img={spicedMintImage}
                         title="Spiced Mint"
                         price="9.99$"
                     />
                     <ProductCard
                         id="4d6b"
-                        img="candles-coloured/sweet-strawberry.png"
+                        img={sweetStrawberryImage}
                         title="Sweet Strawberry"
                         price="9.99$"
                     />
                     <ProductCard
                         id="r498"
-                        img="candles-coloured/cool-blueberries.png"
+                        img={coolBlueberriesImage}
                         title="Cool Blueberries"
                         price="9.99$"
                     />
                     <ProductCard
                         id="f8mc"
-                        img="candles-coloured/juicy-lemon.png"
+                        img={juicyLemonImage}
                         title="Juicy Lemon"
                         price="9.99$"
                     />
@@ -40,25 +48,25 @@ export default function Products() {
                 <div className={styles.products__cardholder__row}>
                     <ProductCard
                         id="50ky"
-                        img="candles-coloured/fresh-orange.png"
+                        img={freshOrangeImage}
                         title="Product name"
                         price="9.99$"
                     />
                     <ProductCard
                         id="c0q8"
-                        img="candles-coloured/fragrant-cinnamon.png"
+                        img={fragrantCinnamonImage}
                         title="Fragrant Cinnamon"
                         price="9.99$"
                     />
                     <ProductCard
                         id="a9kv"
-                        img="candles-coloured/summer-cherries.png"
+                        img={summerCherriesImage}
                         title="Summer Cherries"
                         price="9.99$"
                     />
                     <ProductCard
                         id="v459"
-                        img="candles-coloured/clean-lavender.png"
+                        img={cleanLavenderImage}
                         title="Clean Lavender"
                         price="9.99$"
                     />

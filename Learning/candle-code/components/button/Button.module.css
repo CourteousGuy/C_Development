@@ -16,4 +16,14 @@
     cursor: pointer;
     border-radius: 4px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: #4DAF6A;
+}
+
+.button__fill {
+    width: 100%;
 }
